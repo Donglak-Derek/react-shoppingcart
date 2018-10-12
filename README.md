@@ -15,4 +15,5 @@
 - jsx not have loop function
 - trusy or falsy
 - event handler without ()
-- bind method to use "this"
+- bind method to use "this" - constructor
+- increase attribute with "setState" - difference with angular

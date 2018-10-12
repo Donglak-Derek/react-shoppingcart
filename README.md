@@ -11,3 +11,4 @@
 - set attributes - adding pic
 - className in jsx
 - bootstrap "npm i bootstrap@..." and add in index.js 'bootstrap/dist/css/bootstrap.css'
+- style attribute

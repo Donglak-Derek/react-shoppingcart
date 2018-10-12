@@ -4,4 +4,4 @@
 
 ## memo
 
-- imrc(import react component ) & cc (componet class)
+- keyboart short cut: imrc(import react component ) & cc (componet class)

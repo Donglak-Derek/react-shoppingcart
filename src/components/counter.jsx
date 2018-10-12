@@ -3,10 +3,10 @@ import React, { Component } from "react";
 class Counter extends Component {
   render() {
     return (
-      <div>
+      <React.Fragment>
         <h1>Hello world</h1>
         <button>increment</button>
-      </div>
+      </React.Fragment>
     );
   }
 }

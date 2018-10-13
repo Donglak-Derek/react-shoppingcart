@@ -6,11 +6,6 @@ class Counter extends Component {
     tags: ["tag1", "tag2", "tag3"]
   };
 
-  handleIncrement = product => {
-    console.log(product);
-    this.setState({ count: this.state.count + 1 });
-  };
-
   renderTags() {
     if (this.state.tags.length === 0) return <p>There are no tags!</p>;
 
@@ -23,13 +18,19 @@ class Counter extends Component {
     );
   }
 
+  handleIncrement = product => {
+    console.log("product: ", product);
+    this.setState({ count: this.state.count + 1 });
+  };
+
   render() {
+    let product = { id: 1 };
     return (
       <div>
         <span className={this.getBadgeClasses()}>{this.formatCount()}</span>
         <button
           onClick={() => {
-            this.handleIncrement({ id: 1 });
+            this.handleIncrement(product);
           }}
           className="btn btn-secondary btn-sm"
         >

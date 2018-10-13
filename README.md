@@ -29,4 +29,7 @@
 
 - The component that owns a piece of the state, should be the one modifying it.
 - single source of truth
+
   - controlled component : component doesn't have own state
+
+- sync data : to use data from Counter on NavBar - Lifting State Up

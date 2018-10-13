@@ -33,3 +33,19 @@
   - controlled component : component doesn't have own state
 
 - sync data : to use data from Counter on NavBar - Lifting State Up
+
+- life cycle hooks
+
+  - MOUNT : created and inserted in to the Dom
+
+    - constructor
+    - render
+    - componentDidMount
+
+  - UPDATE : component get changed
+
+    - render
+    - componentDidUpdate
+
+  - UNMOUNT : removed form the DOM
+    - componentWillUnmount
